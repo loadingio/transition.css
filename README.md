@@ -12,7 +12,7 @@ transition.css is released together with a handy tool which build GIFs from CSS 
 Usage
 ==================
 
-1. download and include [transition.css](https://raw.githubusercontent.com/loadingio/loading.css/c0b955eba7a7d17819d110ec661e199a2482bdea/preview.gif):
+1. download and include [transition.css](https://raw.githubusercontent.com/loadingio/transition.css/master/dist/transition.min.css):
 
 ```
     <link rel="stylesheet" type="text/css" href="transition.css"/>
