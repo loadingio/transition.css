@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
-mkdir -p dist
+mkdir -p dist/entries
+echo "build transition.css ..."
 ./node_modules/.bin/stylus --include src/transition.css < src/transition.css/index.styl > dist/transition.css
+echo "build transition.min.css ..."
 ./node_modules/.bin/stylus --include src/transition.css --compress < src/transition.css/index.styl > dist/transition.min.css
+for i in $(find src/transition.css/entries | grep '.styl'); do
+  des=$(echo $i | sed 's/src\/transition\.css\//dist\//' | sed 's/styl$/css/')
+  echo build $des
+  ./node_modules/.bin/stylus --include src/transition.css/entries/ < $i > $des
+  ./node_modules/.bin/stylus --include src/transition.css/entries/ --compress < $i > $des
+done

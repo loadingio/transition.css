@@ -1,0 +1,1 @@
+@keyframes ldt-fade-in{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes ldt-fade-in{0%{opacity:0}100%{opacity:1}}.ldt-fade-out{opacity:1;-webkit-animation:ldt-fade-in 1s forwards;animation:ldt-fade-in 1s forwards;-webkit-animation-direction:reverse;animation-direction:reverse;animation-timing-function:cubic-bezier(.3,0,1,.7)}
