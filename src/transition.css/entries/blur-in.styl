@@ -1,0 +1,18 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-blur-in)
+  0%
+    filter: blur(5px)
+    opacity: 0
+  90%
+    filter: blur(0px)
+    opacity: 1
+  100%
+    filter: blur(0px)
+    opacity: 1
+
+.ldt-blur-in
+  filter: blur(5px)
+  opacity: 0
+  animation(ldt-blur-in 1s cubic-bezier(0,0.5,0.5,1) forwards)

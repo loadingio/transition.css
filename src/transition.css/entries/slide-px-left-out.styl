@@ -1,0 +1,16 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-slide-px-left-out)
+  0%
+    transform: translate(0,0)
+  10%
+    opacity: 1
+  60%
+    opacity: 0
+  100%
+    transform: translate(-200px,0)
+    opacity: 0
+.ldt-slide-px-left-out
+  transform: translate(0,0)
+  animation(ldt-slide-px-left-out 1s cubic-bezier(0,0.5,0.5,1) forwards)

@@ -1,0 +1,47 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-fall-in)
+  0%
+    transform: translate(0,-139.8059%)
+    opacity: 0
+  6%
+    transform: translate(0,-126.113%)
+  9%
+    transform: translate(0,-111.6773%)
+  11%
+    transform: translate(0,-97.5532%)
+  13%
+    transform: translate(0,-79.9952%)
+  15%
+    transform: translate(0,-59.6475%)
+  17%
+    transform: translate(0,-37.5424%)
+  18%
+    transform: translate(0,-26.2384%)
+  19%
+    transform: translate(0,-15.0112%)
+    opacity: 1
+  24%
+    transform: translate(0,-33.3136%)
+  26%
+    transform: translate(0,-45.8063%)
+  36%
+    transform: translate(0,-30.1431%)
+  38%
+    transform: translate(0,-16.6962%)
+  40%
+    transform: translate(0,-3.3162%)
+  44%
+    transform: translate(0,-17.1842%)
+  56%
+    transform: translate(0,-3.4519%)
+  100%
+    transform: translate(0,0%)
+    opacity: 1
+
+.ldt-fall-in
+  transform: translate(0,-139.8059%)
+  opacity: 0
+  animation(ldt-fall-in 1s linear forwards)
+

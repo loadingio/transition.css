@@ -1,0 +1,13 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-grow-v)
+  0%
+    transform: scale(1,0)
+  100%
+    transform: scale(1,1)
+
+.ldt-grow-px-btt
+  transform: scale(1,0)
+  animation(ldt-grow-v 1s cubic-bezier(0,0.5,0.5,1) forwards)
+  transform-origin: 50px 100px!important

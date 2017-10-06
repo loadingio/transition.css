@@ -1,0 +1,13 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-flip-v)
+  0%
+    transform: rotateY(90deg)
+  100%
+    transform: rotateY(0deg)
+
+.ldt-flip-v
+  transform: rotateY(90deg)
+  perspective: 500px
+  animation(ldt-flip-v 1s cubic-bezier(0,0.5,0.5,1) forwards)

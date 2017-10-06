@@ -1,0 +1,13 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-grow-h)
+  0%
+    transform: scale(0,1)
+  100%
+    transform: scale(1,1)
+
+.ldt-grow-ltr
+  transform: scale(0,1)
+  animation(ldt-grow-h 1s cubic-bezier(0,0.5,0.5,1) forwards)
+  transform-origin: 0!important

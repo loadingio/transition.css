@@ -1,0 +1,17 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
+
++keyframes(ldt-slide-bottom-in)
+  0%
+    transform: translate(0,200%)
+    opacity: 0
+  50%
+    opacity: 1
+  100%
+    transform: translate(0,0)
+    opacity: 1
+.ldt-slide-bottom-in
+  transform: translate(0,200%)
+  opacity: 0
+  animation(ldt-slide-bottom-in 1s cubic-bezier(0,0.5,0.5,1) forwards)

@@ -1,0 +1,14 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-zoom-in)
+  0%, 20%, 100%
+    animation-timing-function: cubic-bezier(0,.5,.5,1)
+  0%
+    transform(scale(0))
+  100%
+    transform(scale(1))
+
+.ldt-zoom-in
+  transform(scale(0))
+  animation(ldt-zoom-in 1s forwards)

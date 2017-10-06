@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+mkdir -p dist
+./node_modules/.bin/stylus --include src/transition.css < src/transition.css/index.styl > dist/transition.css
+./node_modules/.bin/stylus --include src/transition.css --compress < src/transition.css/index.styl > dist/transition.min.css
