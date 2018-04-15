@@ -1,0 +1,18 @@
+@import '../../vars.styl'
+@import '../../basic.styl'
+
++keyframes(ldt-float-right-in)
+  0%
+    opacity: 0
+    transform: translate(-30%,0)
+  50%
+    opacity: 1
+  100%
+    opacity: 1
+    transform: translate(0%,0)
+
+.ldt-float-right-in
+  transform: translate(-30%,0)
+  opacity: 0
+  animation(ldt-float-right-in 1s forwards)
+

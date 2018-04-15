@@ -2,6 +2,34 @@
 @import '../../basic.styl'
 
 +keyframes(ldt-fall-in)
+  0%, 35%, 59%, 75%
+    animation-timing-function: cubic-bezier(.5,0,1,.5)
+  18%, 47%, 67%, 80%
+    animation-timing-function: cubic-bezier(0,.5,.5,1)
+  0%
+    opacity: 0
+    transform: translate(0,-100%)
+  18%
+    opacity: 1
+    transform: translate(0,-0%)
+  35%
+    transform: translate(0,-46%)
+  47%
+    transform: translate(0,-0%)
+  59%
+    transform: translate(0,-20%)
+  67%
+    transform: translate(0,-0%)
+  75%
+    transform: translate(0,-10%)
+  80%
+    transform: translate(0,-0%)
+  100%
+    opacity: 1
+    transform: translate(0,0%)
+
+
++keyframes(ldt-fall-in-old)
   0%
     transform: translate(0,-139.8059%)
     opacity: 0
@@ -41,7 +69,7 @@
     opacity: 1
 
 .ldt-fall-in
-  transform: translate(0,-139.8059%)
+  transform: translate(0,-100%)
   opacity: 0
-  animation(ldt-fall-in 1s linear forwards)
+  animation(ldt-fall-in 1s forwards)
 

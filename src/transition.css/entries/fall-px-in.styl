@@ -2,46 +2,34 @@
 @import '../../basic.styl'
 
 +keyframes(ldt-fall-px-in)
+  0%, 35%, 59%, 75%
+    animation-timing-function: cubic-bezier(.5,0,1,.5)
+  18%, 47%, 67%, 80%
+    animation-timing-function: cubic-bezier(0,.5,.5,1)
   0%
-    transform: translate(0,-139.8059px)
     opacity: 0
-  6%
-    transform: translate(0,-126.113px)
-  9%
-    transform: translate(0,-111.6773px)
-  11%
-    transform: translate(0,-97.5532px)
-  13%
-    transform: translate(0,-79.9952px)
-  15%
-    transform: translate(0,-59.6475px)
-  17%
-    transform: translate(0,-37.5424px)
+    transform: translate(0,-100px)
   18%
-    transform: translate(0,-26.2384px)
-  19%
-    transform: translate(0,-15.0112px)
     opacity: 1
-  24%
-    transform: translate(0,-33.3136px)
-  26%
-    transform: translate(0,-45.8063px)
-  36%
-    transform: translate(0,-30.1431px)
-  38%
-    transform: translate(0,-16.6962px)
-  40%
-    transform: translate(0,-3.3162px)
-  44%
-    transform: translate(0,-17.1842px)
-  56%
-    transform: translate(0,-3.4519px)
+    transform: translate(0,-0px)
+  35%
+    transform: translate(0,-46px)
+  47%
+    transform: translate(0,-0px)
+  59%
+    transform: translate(0,-20px)
+  67%
+    transform: translate(0,-0px)
+  75%
+    transform: translate(0,-10px)
+  80%
+    transform: translate(0,-0px)
   100%
-    transform: translate(0,0px)
     opacity: 1
+    transform: translate(0,0)
 
 .ldt-fall-px-in
-  transform: translate(0,-139.8059px)
+  transform: translate(0,-100px)
   opacity: 0
-  animation(ldt-fall-px-in 1s linear forwards)
+  animation(ldt-fall-px-in 1s forwards)
 

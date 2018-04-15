@@ -2,74 +2,25 @@
 @import '../../basic.styl'
 
 +keyframes(ldt-jump-out)
+  0%, 45%, 72%
+    animation-timing-function: cubic-bezier(.5,0,1,.5)
+  23%, 59%, 80%
+    animation-timing-function: cubic-bezier(0,.5,.5,1)
   0%
-    transform: scale(0.932)
-  5%
-    transform: scale(0.866)
-  7%
-    transform: scale(0.8022)
-  9%
-    transform: scale(0.7014)
-  10%
-    transform: scale(0.6367)
-  11%
-    transform: scale(0.5631)
-  12%
-    transform: scale(0.4815)
-  13%
-    transform: scale(0.3932)
-  14%
-    transform: scale(0.2998)
-  15%
-    transform: scale(0.2033)
-  16%
-    transform: scale(0.106)
-  17%
-    transform: scale(0.01)
-  18%
-    transform: scale(0.082)
-  19%
-    transform: scale(0.1677)
-  20%
-    transform: scale(0.2448)
-  21%
-    transform: scale(0.311)
-  22%
-    transform: scale(0.3646)
-  24%
-    transform: scale(0.4283)
-  28%
-    transform: scale(0.3733)
-  29%
-    transform: scale(0.3262)
-  30%
-    transform: scale(0.2694)
-  31%
-    transform: scale(0.2056)
-  32%
-    transform: scale(0.1376)
-  33%
-    transform: scale(0.0685)
-  34%
-    transform: scale(0.0012)
-  35%
-    transform: scale(0.0614)
-  36%
-    transform: scale(0.1167)
-  38%
-    transform: scale(0.1973)
+    transform: scale(1)
+  23%
+    transform: scale(0)
   45%
-    transform: scale(0.1215)
-  47%
-    transform: scale(0.039)
-  51%
-    transform: scale(0.0911)
+    transform: scale(0.36)
   59%
-    transform: scale(0.0304)
+    transform: scale(0)
+  72%
+    transform: scale(0.12)
+  80%
+    transform: scale(0)
   100%
     transform: scale(0)
 
 .ldt-jump-out
-  transform: scale(0.932)
-  animation(ldt-jump-out 1s ease-out forwards)
-
+  transform: scale(1)
+  animation(ldt-jump-out 1s forwards)
