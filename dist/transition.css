@@ -522,6 +522,12 @@
     animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
   }
   0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  1% {
+    opacity: 1;
     -webkit-transform: scale(0);
     transform: scale(0);
   }
@@ -548,6 +554,7 @@
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+    opacity: 1;
   }
 }
 @-webkit-keyframes ldt-jump-in {
@@ -558,6 +565,12 @@
     animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
   }
   0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  1% {
+    opacity: 1;
     -webkit-transform: scale(0);
     transform: scale(0);
   }
@@ -584,9 +597,11 @@
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+    opacity: 1;
   }
 }
 .ldt-jump-in {
+  opacity: 0;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-animation: ldt-jump-in 1s forwards;

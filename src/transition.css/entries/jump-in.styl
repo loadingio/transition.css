@@ -7,6 +7,10 @@
   23%, 59%, 80%
     animation-timing-function: cubic-bezier(0,.5,.5,1)
   0%
+    opacity: 0
+    transform: scale(0)
+  1%
+    opacity: 1
     transform: scale(0)
   23%
     transform: scale(1)
@@ -20,7 +24,9 @@
     transform: scale(1)
   100%
     transform: scale(1)
+    opacity: 1
 
 .ldt-jump-in
+  opacity: 0
   transform: scale(0)
   animation(ldt-jump-in 1s forwards)
