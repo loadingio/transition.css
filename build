@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
-mkdir -p dist/entries
-echo "build transition.css ..."
-./node_modules/.bin/stylus --include src/transition.css < src/transition.css/index.styl > dist/transition.css
-echo "build transition.min.css ..."
-./node_modules/.bin/stylus --include src/transition.css --compress < src/transition.css/index.styl > dist/transition.min.css
-for i in $(find src/transition.css/entries | grep '.styl'); do
-  des=$(echo $i | sed 's/src\/transition\.css\//dist\//' | sed 's/styl$/css/')
-  echo build $des
-  ./node_modules/.bin/stylus --include src/transition.css/entries/ < $i > $des
-  ./node_modules/.bin/stylus --include src/transition.css/entries/ --compress < $i > $des
-done
+mkdir -p dist
+
+echo "build src/ctrl.styl -> dist/ctrl.css ..."
+./node_modules/.bin/stylus -p src/ctrl.styl > dist/ctrl.css
+echo "build animations..."
+./node_modules/.bin/lsc tool/build-css.ls > dist/main.css
+
+echo "merge css files into transition.css..."
+cat dist/ctrl.css dist/main.css > dist/transition.css
+echo "minifying transition.css ..."
+./node_modules/.bin/uglifycss dist/transition.css > dist/transition.min.css
+echo "zipping..."
+zip -r dist/transition-css.zip dist/transition.min.css
+echo "clean up intermediate files..."
+rm dist/ctrl.css dist/main.css
+
+echo "done."
+
+
