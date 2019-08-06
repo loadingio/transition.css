@@ -2,21 +2,21 @@
   animation-iteration-count: infinite;
 }
 .ld { transform-origin: 50% 50%; transform-box: fill-box; }
-@keyframes ld-blur-in {
+@keyframes ldt-blur-in {
   100% { filter: blur(0); opacity: 1 }
   0% { filter: blur(10px); opacity: 0 }
 }
-.ld.ld-blur-in {
-  animation: ld-blur-in 1s 1; animation-fill-mode: forwards;filter: blur(10px);opacity: 0
+.ld.ldt-blur-in {
+  animation: ldt-blur-in 1s 1; animation-fill-mode: forwards;filter: blur(10px);opacity: 0
 }
-@keyframes ld-blur-out {
+@keyframes ldt-blur-out {
   0% { filter: blur(0); opacity: 1 }
   100% { filter: blur(10px); opacity: 0 }
 }
-.ld.ld-blur-out {
-  animation: ld-blur-out 1s 1; animation-fill-mode: forwards;filter: blur(0px);opacity: 1
+.ld.ldt-blur-out {
+  animation: ldt-blur-out 1s 1; animation-fill-mode: forwards;filter: blur(0px);opacity: 1
 }
-@keyframes ld-bounce-out-alt
+@keyframes ldt-bounce-out-alt
 {
   0% {
     animation-timing-function: cubic-bezier(0.094,0.3361,-1.0597,0.6688);
@@ -54,10 +54,10 @@
     transform: matrix(0.01,0,0,0.01,0,0);
   }
 }
-.ld.ld-bounce-out-alt {
-  animation: ld-bounce-out-alt 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
+.ld.ldt-bounce-out-alt {
+  animation: ldt-bounce-out-alt 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
 }
-@keyframes ld-bounce-in-alt
+@keyframes ldt-bounce-in-alt
 {
   0% {
     animation-timing-function: cubic-bezier(0.0955,0.3456,-1.5085,0.6684);
@@ -95,10 +95,10 @@
     transform: matrix(1,0,0,1,0,0);
   }
 }
-.ld.ld-bounce-in-alt {
-  animation: ld-bounce-in-alt 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
+.ld.ldt-bounce-in-alt {
+  animation: ldt-bounce-in-alt 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
 }
-@keyframes ld-bounce-out
+@keyframes ldt-bounce-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.0725,0.3371,0.3061,0.6653);
@@ -144,10 +144,10 @@
     transform: matrix(0.01,0,0,0.01,0,0);
   }
 }
-.ld.ld-bounce-out {
-  animation: ld-bounce-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
+.ld.ldt-bounce-out {
+  animation: ldt-bounce-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
 }
-@keyframes ld-bounce-in
+@keyframes ldt-bounce-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.0383,0.3388,0.0421,0.6652);
@@ -213,10 +213,10 @@
     transform: matrix(1,0,0,1,0,0);
   }
 }
-.ld.ld-bounce-in {
-  animation: ld-bounce-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
+.ld.ldt-bounce-in {
+  animation: ldt-bounce-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
 }
-@keyframes ld-spring-ltr-in
+@keyframes ldt-spring-ltr-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.0741,0.3499,0.0735,0.662);
@@ -263,10 +263,10 @@
     opacity: 1;
   }
 }
-.ld.ld-spring-ltr-in {
-  animation: ld-spring-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-49.5,0);opacity: 0.01
+.ld.ldt-spring-ltr-in {
+  animation: ldt-spring-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-49.5,0);opacity: 0.01
 }
-@keyframes ld-spring-rtl-in
+@keyframes ldt-spring-rtl-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.0741,0.3499,0.0735,0.662);
@@ -313,10 +313,10 @@
     opacity: 1;
   }
 }
-.ld.ld-spring-rtl-in {
-  animation: ld-spring-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,49.5,0);opacity: 0.01
+.ld.ldt-spring-rtl-in {
+  animation: ldt-spring-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,49.5,0);opacity: 0.01
 }
-@keyframes ld-spring-ttb-in
+@keyframes ldt-spring-ttb-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.0741,0.3499,0.0735,0.662);
@@ -363,10 +363,10 @@
     opacity: 1;
   }
 }
-.ld.ld-spring-ttb-in {
-  animation: ld-spring-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-49.5);opacity: 0.01
+.ld.ldt-spring-ttb-in {
+  animation: ldt-spring-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-49.5);opacity: 0.01
 }
-@keyframes ld-spring-btt-in
+@keyframes ldt-spring-btt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.0741,0.3499,0.0735,0.662);
@@ -413,10 +413,10 @@
     opacity: 1;
   }
 }
-.ld.ld-spring-btt-in {
-  animation: ld-spring-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,49.5);opacity: 0.01
+.ld.ldt-spring-btt-in {
+  animation: ldt-spring-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,49.5);opacity: 0.01
 }
-@keyframes ld-throw-ltr-in
+@keyframes ldt-throw-ltr-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.3333,0.3333,0.3631,0.6667);
@@ -468,10 +468,10 @@
     opacity: 1;
   }
 }
-.ld.ld-throw-ltr-in {
-  animation: ld-throw-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-495,0);opacity: 0.01
+.ld.ldt-throw-ltr-in {
+  animation: ldt-throw-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-495,0);opacity: 0.01
 }
-@keyframes ld-throw-rtl-in
+@keyframes ldt-throw-rtl-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.3333,0.3333,0.3631,0.6667);
@@ -523,10 +523,10 @@
     opacity: 1;
   }
 }
-.ld.ld-throw-rtl-in {
-  animation: ld-throw-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,495,0);opacity: 0.01
+.ld.ldt-throw-rtl-in {
+  animation: ldt-throw-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,495,0);opacity: 0.01
 }
-@keyframes ld-throw-ttb-in
+@keyframes ldt-throw-ttb-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.3333,0.3333,0.3631,0.6667);
@@ -578,10 +578,10 @@
     opacity: 1;
   }
 }
-.ld.ld-throw-ttb-in {
-  animation: ld-throw-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-495);opacity: 0.01
+.ld.ldt-throw-ttb-in {
+  animation: ldt-throw-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-495);opacity: 0.01
 }
-@keyframes ld-throw-btt-in
+@keyframes ldt-throw-btt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.3333,0.3333,0.3631,0.6667);
@@ -633,10 +633,10 @@
     opacity: 1;
   }
 }
-.ld.ld-throw-btt-in {
-  animation: ld-throw-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,495);opacity: 0.01
+.ld.ldt-throw-btt-in {
+  animation: ldt-throw-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,495);opacity: 0.01
 }
-@keyframes ld-jump-alt-in
+@keyframes ldt-jump-alt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.9281,0.063,0.9339,0.8573);
@@ -714,10 +714,10 @@
     transform: matrix(1,0,0,1,0,0);
   }
 }
-.ld.ld-jump-alt-in {
-  animation: ld-jump-alt-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
+.ld.ldt-jump-alt-in {
+  animation: ldt-jump-alt-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
 }
-@keyframes ld-jump-alt-out
+@keyframes ldt-jump-alt-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.9281,0.063,0.9339,0.8573);
@@ -795,10 +795,10 @@
     transform: matrix(0.01,0,0,0.01,0,0);
   }
 }
-.ld.ld-jump-alt-out {
-  animation: ld-jump-alt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
+.ld.ldt-jump-alt-out {
+  animation: ldt-jump-alt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
 }
-@keyframes ld-jump-in
+@keyframes ldt-jump-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.6505,0.0695,0.8671,0.7282);
@@ -828,10 +828,10 @@
     transform: matrix(1,0,0,1,0,0);
   }
 }
-.ld.ld-jump-in {
-  animation: ld-jump-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
+.ld.ldt-jump-in {
+  animation: ldt-jump-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
 }
-@keyframes ld-jump-out
+@keyframes ldt-jump-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.6469,0.0494,0.8696,0.7444);
@@ -861,10 +861,10 @@
     transform: matrix(0.01,0,0,0.01,0,0);
   }
 }
-.ld.ld-jump-out {
-  animation: ld-jump-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
+.ld.ldt-jump-out {
+  animation: ldt-jump-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
 }
-@keyframes ld-zoom-in
+@keyframes ldt-zoom-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.0436,0.6939,0.3878,0.8531);
@@ -874,10 +874,10 @@
     transform: matrix(1,0,0,1,0,0);
   }
 }
-.ld.ld-zoom-in {
-  animation: ld-zoom-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
+.ld.ldt-zoom-in {
+  animation: ldt-zoom-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.01,0,0,0.01,0,0)
 }
-@keyframes ld-zoom-out
+@keyframes ldt-zoom-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.0436,0.6939,0.3878,0.8531);
@@ -887,10 +887,10 @@
     transform: matrix(0.01,0,0,0.01,0,0);
   }
 }
-.ld.ld-zoom-out {
-  animation: ld-zoom-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
+.ld.ldt-zoom-out {
+  animation: ldt-zoom-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0)
 }
-@keyframes ld-fade-in
+@keyframes ldt-fade-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -900,10 +900,10 @@
     opacity: 1;
   }
 }
-.ld.ld-fade-in {
-  animation: ld-fade-in 1s 1; animation-fill-mode: forwards;opacity: 0
+.ld.ldt-fade-in {
+  animation: ldt-fade-in 1s 1; animation-fill-mode: forwards;opacity: 0
 }
-@keyframes ld-fade-out
+@keyframes ldt-fade-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -913,10 +913,10 @@
     opacity: 0;
   }
 }
-.ld.ld-fade-out {
-  animation: ld-fade-out 1s 1; animation-fill-mode: forwards;opacity: 1
+.ld.ldt-fade-out {
+  animation: ldt-fade-out 1s 1; animation-fill-mode: forwards;opacity: 1
 }
-@keyframes ld-grow-rtl-in
+@keyframes ldt-grow-rtl-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -933,10 +933,10 @@
     opacity: 1;
   }
 }
-.ld.ld-grow-rtl-in {
-  animation: ld-grow-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.005,0,0,1,49.75,0);opacity: 0
+.ld.ldt-grow-rtl-in {
+  animation: ldt-grow-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.005,0,0,1,49.75,0);opacity: 0
 }
-@keyframes ld-grow-rtl-out
+@keyframes ldt-grow-rtl-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -953,10 +953,10 @@
     opacity: 0;
   }
 }
-.ld.ld-grow-rtl-out {
-  animation: ld-grow-rtl-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-grow-rtl-out {
+  animation: ldt-grow-rtl-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-grow-ltr-in
+@keyframes ldt-grow-ltr-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -973,10 +973,10 @@
     opacity: 1;
   }
 }
-.ld.ld-grow-ltr-in {
-  animation: ld-grow-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.005,0,0,1,-49.75,0);opacity: 0
+.ld.ldt-grow-ltr-in {
+  animation: ldt-grow-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.005,0,0,1,-49.75,0);opacity: 0
 }
-@keyframes ld-grow-ltr-out
+@keyframes ldt-grow-ltr-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -993,10 +993,10 @@
     opacity: 0;
   }
 }
-.ld.ld-grow-ltr-out {
-  animation: ld-grow-ltr-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-grow-ltr-out {
+  animation: ldt-grow-ltr-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-grow-ttb-in
+@keyframes ldt-grow-ttb-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1013,10 +1013,10 @@
     opacity: 1;
   }
 }
-.ld.ld-grow-ttb-in {
-  animation: ld-grow-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,0.005,0,-49.75);opacity: 0
+.ld.ldt-grow-ttb-in {
+  animation: ldt-grow-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,0.005,0,-49.75);opacity: 0
 }
-@keyframes ld-grow-ttb-out
+@keyframes ldt-grow-ttb-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1033,10 +1033,10 @@
     opacity: 0;
   }
 }
-.ld.ld-grow-ttb-out {
-  animation: ld-grow-ttb-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-grow-ttb-out {
+  animation: ldt-grow-ttb-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-grow-btt-in
+@keyframes ldt-grow-btt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1053,10 +1053,10 @@
     opacity: 1;
   }
 }
-.ld.ld-grow-btt-in {
-  animation: ld-grow-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,0.005,0,49.75);opacity: 0
+.ld.ldt-grow-btt-in {
+  animation: ldt-grow-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,0.005,0,49.75);opacity: 0
 }
-@keyframes ld-grow-btt-out
+@keyframes ldt-grow-btt-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1073,10 +1073,10 @@
     opacity: 0;
   }
 }
-.ld.ld-grow-btt-out {
-  animation: ld-grow-btt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-grow-btt-out {
+  animation: ldt-grow-btt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-flip-v-in
+@keyframes ldt-flip-v-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1093,10 +1093,10 @@
     opacity: 1;
   }
 }
-.ld.ld-flip-v-in {
-  animation: ld-flip-v-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,0.005,0,0);opacity: 0
+.ld.ldt-flip-v-in {
+  animation: ldt-flip-v-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,0.005,0,0);opacity: 0
 }
-@keyframes ld-flip-v-out
+@keyframes ldt-flip-v-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1113,10 +1113,10 @@
     opacity: 0;
   }
 }
-.ld.ld-flip-v-out {
-  animation: ld-flip-v-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-flip-v-out {
+  animation: ldt-flip-v-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-flip-h-in
+@keyframes ldt-flip-h-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1133,10 +1133,10 @@
     opacity: 1;
   }
 }
-.ld.ld-flip-h-in {
-  animation: ld-flip-h-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.005,0,0,1,0,0);opacity: 0
+.ld.ldt-flip-h-in {
+  animation: ldt-flip-h-in 1s 1; animation-fill-mode: forwards;transform: matrix(0.005,0,0,1,0,0);opacity: 0
 }
-@keyframes ld-flip-h-out
+@keyframes ldt-flip-h-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1153,10 +1153,10 @@
     opacity: 0;
   }
 }
-.ld.ld-flip-h-out {
-  animation: ld-flip-h-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-flip-h-out {
+  animation: ldt-flip-h-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-slide-rtl-in
+@keyframes ldt-slide-rtl-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1173,10 +1173,10 @@
     opacity: 1;
   }
 }
-.ld.ld-slide-rtl-in {
-  animation: ld-slide-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,199,0);opacity: 0
+.ld.ldt-slide-rtl-in {
+  animation: ldt-slide-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,199,0);opacity: 0
 }
-@keyframes ld-slide-rtl-out
+@keyframes ldt-slide-rtl-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1193,10 +1193,10 @@
     opacity: 0;
   }
 }
-.ld.ld-slide-rtl-out {
-  animation: ld-slide-rtl-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-slide-rtl-out {
+  animation: ldt-slide-rtl-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-slide-ltr-in
+@keyframes ldt-slide-ltr-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1213,10 +1213,10 @@
     opacity: 1;
   }
 }
-.ld.ld-slide-ltr-in {
-  animation: ld-slide-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-199,0);opacity: 0
+.ld.ldt-slide-ltr-in {
+  animation: ldt-slide-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-199,0);opacity: 0
 }
-@keyframes ld-slide-ltr-out
+@keyframes ldt-slide-ltr-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1233,10 +1233,10 @@
     opacity: 0;
   }
 }
-.ld.ld-slide-ltr-out {
-  animation: ld-slide-ltr-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-slide-ltr-out {
+  animation: ldt-slide-ltr-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-slide-ttb-in
+@keyframes ldt-slide-ttb-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1253,10 +1253,10 @@
     opacity: 1;
   }
 }
-.ld.ld-slide-ttb-in {
-  animation: ld-slide-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-199);opacity: 0
+.ld.ldt-slide-ttb-in {
+  animation: ldt-slide-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-199);opacity: 0
 }
-@keyframes ld-slide-ttb-out
+@keyframes ldt-slide-ttb-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1273,10 +1273,10 @@
     opacity: 0;
   }
 }
-.ld.ld-slide-ttb-out {
-  animation: ld-slide-ttb-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-slide-ttb-out {
+  animation: ldt-slide-ttb-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-slide-btt-in
+@keyframes ldt-slide-btt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.1006,0.3357,-0.2396,0.6703);
@@ -1293,10 +1293,10 @@
     opacity: 1;
   }
 }
-.ld.ld-slide-btt-in {
-  animation: ld-slide-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,199);opacity: 0
+.ld.ldt-slide-btt-in {
+  animation: ldt-slide-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,199);opacity: 0
 }
-@keyframes ld-slide-btt-out
+@keyframes ldt-slide-btt-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2221,0.7433,0.3066,0.8148);
@@ -1313,10 +1313,10 @@
     opacity: 0;
   }
 }
-.ld.ld-slide-btt-out {
-  animation: ld-slide-btt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-slide-btt-out {
+  animation: ldt-slide-btt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-float-rtl-in
+@keyframes ldt-float-rtl-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1328,10 +1328,10 @@
     opacity: 1;
   }
 }
-.ld.ld-float-rtl-in {
-  animation: ld-float-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,14.925,0);opacity: 0.005
+.ld.ldt-float-rtl-in {
+  animation: ldt-float-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,14.925,0);opacity: 0.005
 }
-@keyframes ld-float-rtl-out
+@keyframes ldt-float-rtl-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1343,10 +1343,10 @@
     opacity: 0.005;
   }
 }
-.ld.ld-float-rtl-out {
-  animation: ld-float-rtl-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-float-rtl-out {
+  animation: ldt-float-rtl-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-float-ltr-in
+@keyframes ldt-float-ltr-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1358,10 +1358,10 @@
     opacity: 1;
   }
 }
-.ld.ld-float-ltr-in {
-  animation: ld-float-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-14.925,0);opacity: 0.005
+.ld.ldt-float-ltr-in {
+  animation: ldt-float-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-14.925,0);opacity: 0.005
 }
-@keyframes ld-float-ltr-out
+@keyframes ldt-float-ltr-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1373,10 +1373,10 @@
     opacity: 0.005;
   }
 }
-.ld.ld-float-ltr-out {
-  animation: ld-float-ltr-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-float-ltr-out {
+  animation: ldt-float-ltr-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-float-ttb-in
+@keyframes ldt-float-ttb-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1388,10 +1388,10 @@
     opacity: 1;
   }
 }
-.ld.ld-float-ttb-in {
-  animation: ld-float-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-14.925);opacity: 0.005
+.ld.ldt-float-ttb-in {
+  animation: ldt-float-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-14.925);opacity: 0.005
 }
-@keyframes ld-float-ttb-out
+@keyframes ldt-float-ttb-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1403,10 +1403,10 @@
     opacity: 0.005;
   }
 }
-.ld.ld-float-ttb-out {
-  animation: ld-float-ttb-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-float-ttb-out {
+  animation: ldt-float-ttb-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-float-btt-in
+@keyframes ldt-float-btt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1418,10 +1418,10 @@
     opacity: 1;
   }
 }
-.ld.ld-float-btt-in {
-  animation: ld-float-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,14.925);opacity: 0.005
+.ld.ldt-float-btt-in {
+  animation: ldt-float-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,14.925);opacity: 0.005
 }
-@keyframes ld-float-btt-out
+@keyframes ldt-float-btt-out
 {
   0% {
     animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
@@ -1433,10 +1433,10 @@
     opacity: 0.005;
   }
 }
-.ld.ld-float-btt-out {
-  animation: ld-float-btt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-float-btt-out {
+  animation: ldt-float-btt-out 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-fall-rtl-in
+@keyframes ldt-fall-rtl-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.7815,0.1815,0.7831,0.7206);
@@ -1468,10 +1468,10 @@
     opacity: 1;
   }
 }
-.ld.ld-fall-rtl-in {
-  animation: ld-fall-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,49.75,0);opacity: 0
+.ld.ldt-fall-rtl-in {
+  animation: ldt-fall-rtl-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,49.75,0);opacity: 0
 }
-@keyframes ld-fall-ltr-in
+@keyframes ldt-fall-ltr-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.7815,0.1815,0.7831,0.7206);
@@ -1503,10 +1503,10 @@
     opacity: 1;
   }
 }
-.ld.ld-fall-ltr-in {
-  animation: ld-fall-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-49.75,0);opacity: 0
+.ld.ldt-fall-ltr-in {
+  animation: ldt-fall-ltr-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,-49.75,0);opacity: 0
 }
-@keyframes ld-fall-ttb-in
+@keyframes ldt-fall-ttb-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.7815,0.1815,0.7831,0.7206);
@@ -1538,10 +1538,10 @@
     opacity: 1;
   }
 }
-.ld.ld-fall-ttb-in {
-  animation: ld-fall-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-49.75);opacity: 0
+.ld.ldt-fall-ttb-in {
+  animation: ldt-fall-ttb-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,-49.75);opacity: 0
 }
-@keyframes ld-fall-btt-in
+@keyframes ldt-fall-btt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.7815,0.1815,0.7831,0.7206);
@@ -1573,10 +1573,10 @@
     opacity: 1;
   }
 }
-.ld.ld-fall-btt-in {
-  animation: ld-fall-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,49.75);opacity: 0
+.ld.ldt-fall-btt-in {
+  animation: ldt-fall-btt-in 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,49.75);opacity: 0
 }
-@keyframes ld-power-off {
+@keyframes ldt-power-off {
   0%, 20%, 100% {
     animation-timing-function: cubic-bezier(0,0.5,0.5,1);
   }
@@ -1585,10 +1585,10 @@
   0% { transform: scale(1,1); opacity: 1 }
   20% { transform: scale(1,0.1); }
 }
-.ld.ld-power-off {
-  animation: ld-power-off 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
+.ld.ldt-power-off {
+  animation: ldt-power-off 1s 1; animation-fill-mode: forwards;transform: matrix(1,0,0,1,0,0);opacity: 1
 }
-@keyframes ld-power-on {
+@keyframes ldt-power-on {
   0%, 20%, 100% {
     animation-timing-function: cubic-bezier(0,0.5,0.5,1);
   }
@@ -1597,10 +1597,10 @@
   100% { transform: scale(1,1); opacity: 1 }
   20% { transform: scale(1,0.1); }
 }
-.ld.ld-power-on {
-  animation: ld-power-on 1s 1; animation-fill-mode: forwards;transform: matrix(0,0,0,0.05,0,0);opacity: 0
+.ld.ldt-power-on {
+  animation: ldt-power-on 1s 1; animation-fill-mode: forwards;transform: matrix(0,0,0,0.05,0,0);opacity: 0
 }
-@keyframes ld-rush-btt-in
+@keyframes ldt-rush-btt-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.006,0.0363,0.3432,1.0697);
@@ -1632,11 +1632,11 @@ skewY(0deg);
     opacity: 1;
   }
 }
-.ld.ld-rush-btt-in {
-  animation: ld-rush-btt-in 1s 1; animation-fill-mode: forwards;transform: translate(0,200px)
+.ld.ldt-rush-btt-in {
+  animation: ldt-rush-btt-in 1s 1; animation-fill-mode: forwards;transform: translate(0,200px)
 skewY(30deg);opacity: 6.123233995736766e-17
 }
-@keyframes ld-rush-ttb-in
+@keyframes ldt-rush-ttb-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.006,0.0363,0.3432,1.0697);
@@ -1668,11 +1668,11 @@ skewY(0deg);
     opacity: 1;
   }
 }
-.ld.ld-rush-ttb-in {
-  animation: ld-rush-ttb-in 1s 1; animation-fill-mode: forwards;transform: translate(0,-200px)
+.ld.ldt-rush-ttb-in {
+  animation: ldt-rush-ttb-in 1s 1; animation-fill-mode: forwards;transform: translate(0,-200px)
 skewY(-30deg);opacity: 6.123233995736766e-17
 }
-@keyframes ld-rush-ltr-in
+@keyframes ldt-rush-ltr-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.006,0.0363,0.3432,1.0697);
@@ -1704,11 +1704,11 @@ skew(0deg);
     opacity: 1;
   }
 }
-.ld.ld-rush-ltr-in {
-  animation: ld-rush-ltr-in 1s 1; animation-fill-mode: forwards;transform: translate(-200px,0)
+.ld.ldt-rush-ltr-in {
+  animation: ldt-rush-ltr-in 1s 1; animation-fill-mode: forwards;transform: translate(-200px,0)
 skew(30deg);opacity: 6.123233995736766e-17
 }
-@keyframes ld-rush-rtl-in
+@keyframes ldt-rush-rtl-in
 {
   0% {
     animation-timing-function: cubic-bezier(0.006,0.0363,0.3432,1.0697);
@@ -1740,25 +1740,25 @@ skew(0deg);
     opacity: 1;
   }
 }
-.ld.ld-rush-rtl-in {
-  animation: ld-rush-rtl-in 1s 1; animation-fill-mode: forwards;transform: translate(200px,0)
+.ld.ldt-rush-rtl-in {
+  animation: ldt-rush-rtl-in 1s 1; animation-fill-mode: forwards;transform: translate(200px,0)
 skew(-30deg);opacity: 6.123233995736766e-17
 }
-@keyframes ld-vortex-alt-out {
+@keyframes ldt-vortex-alt-out {
   0%, 60% { animation-timing-function: cubic-bezier(0.3, 0, 1, 0.7); }
   0% { opacity: 0; transform: rotate(-1800deg) scale(0.1); }
   60% { opacity: 1; transform: rotate(0deg) scale(1); }
   100% { opacity: 1; transform: rotate(0deg) scale(1); }
 }
-.ld.ld-vortex-alt-out {
-  animation: ld-vortex-alt-out 2s 1; animation-fill-mode: forwards;transform: matrix(0.1,0,0,0.1,0,0);opacity: 0
+.ld.ldt-vortex-alt-out {
+  animation: ldt-vortex-alt-out 2s 1; animation-fill-mode: forwards;transform: matrix(0.1,0,0,0.1,0,0);opacity: 0
 }
-@keyframes ld-vortex-alt-in {
+@keyframes ldt-vortex-alt-in {
   0%, 60% { animation-timing-function: cubic-bezier(0.3, 0, 1, 0.7); }
   0% { opacity: 0; transform: rotate(-1800deg) scale(3); }
   60% { opacity: 1; transform: rotate(0deg) scale(1); }
   100% { opacity: 1; transform: rotate(0deg) scale(1); }
 }
-.ld.ld-vortex-alt-in {
-  animation: ld-vortex-alt-in 2s 1; animation-fill-mode: forwards;transform: matrix(3,0,0,3,0,0);opacity: 0
+.ld.ldt-vortex-alt-in {
+  animation: ldt-vortex-alt-in 2s 1; animation-fill-mode: forwards;transform: matrix(3,0,0,3,0,0);opacity: 0
 }

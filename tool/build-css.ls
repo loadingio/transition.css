@@ -5,7 +5,7 @@ output.push """
 """
 for k,v of anikit.types => 
   {mod,config} = anikit.get k
-  config <<< {name: "ld-#{config.name}"}
+  config <<< {name: "ldt-#{config.name}"}
   if !config.repeat => continue
   mod = require "../node_modules/anikit/src/kits/#{mod.name}"
   if !mod.css => continue
