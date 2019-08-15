@@ -6,12 +6,14 @@ echo "build src/ctrl.styl -> dist/ctrl.css ..."
 echo "build animations..."
 ./node_modules/.bin/lsc tool/build-css.ls > dist/main.css
 
-echo "merge css files into transition.css..."
+echo "merge css files into transition.css / transition.utils.css ..."
 cat dist/ctrl.css dist/main.css > dist/transition.css
-echo "minifying transition.css ..."
+cat dist/ctrl.css > dist/transition.utils.css
+echo "minifying transition.css / transition.utils.css ..."
 ./node_modules/.bin/uglifycss dist/transition.css > dist/transition.min.css
+./node_modules/.bin/uglifycss dist/transition.utils.css > dist/transition.utils.min.css
 echo "zipping..."
-zip -r dist/transition-css.zip dist/transition.min.css
+zip -r dist/transition-css.zip dist/transition.min.css dist/transition.utils.min.css
 echo "clean up intermediate files..."
 rm dist/ctrl.css dist/main.css
 
