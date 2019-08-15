@@ -1,5 +1,5 @@
 .infinite {
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite !important;
 }
 .ld { transform-origin: 50% 50%; transform-box: fill-box; }
 @keyframes ldt-blur-in {
