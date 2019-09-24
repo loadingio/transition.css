@@ -4,10 +4,11 @@ mkdir -p dist
 echo "build src/ctrl.styl -> dist/ctrl.css ..."
 ./node_modules/.bin/stylus -p src/ctrl.styl > dist/ctrl.css
 echo "build animations..."
-./node_modules/.bin/lsc tool/build-css.ls > dist/main.css
+./node_modules/.bin/lsc tool/build-css.ls
 
 echo "merge css files into transition.css / transition.utils.css ..."
-cat dist/ctrl.css dist/main.css > dist/transition.css
+cat dist/ctrl.css dist/transition.css > dist/transition-bundle.css
+mv dist/transition-bundle.css dist/transition.css
 cat dist/ctrl.css > dist/transition.utils.css
 echo "minifying transition.css / transition.utils.css ..."
 ./node_modules/.bin/uglifycss dist/transition.css > dist/transition.min.css
@@ -15,7 +16,7 @@ echo "minifying transition.css / transition.utils.css ..."
 echo "zipping..."
 zip -r dist/transition-css.zip dist/transition.min.css dist/transition.utils.min.css
 echo "clean up intermediate files..."
-rm dist/ctrl.css dist/main.css
+rm dist/ctrl.css
 
 echo "done."
 

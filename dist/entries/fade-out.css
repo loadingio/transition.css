@@ -1,1 +1,14 @@
-@keyframes ldt-fade-in{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes ldt-fade-in{0%{opacity:0}100%{opacity:1}}.ldt-fade-out{opacity:1;-webkit-animation:ldt-fade-in 1s forwards;animation:ldt-fade-in 1s forwards;-webkit-animation-direction:reverse;animation-direction:reverse;animation-timing-function:cubic-bezier(.3,0,1,.7)}
+.ld { transform-origin: 50% 50%; transform-box: fill-box; }
+@keyframes ld-fade-out
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.2242,0.7499,0.3142,0.8148);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ld.ld-fade-out {
+  animation: ld-fade-out 1s 1 linear; animation-fill-mode: forwards;opacity: 1; 
+}

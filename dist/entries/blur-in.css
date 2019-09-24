@@ -1,1 +1,8 @@
-@keyframes ldt-blur-in{0%{filter:blur(5px);opacity:0}90%{filter:blur(0);opacity:1}100%{filter:blur(0);opacity:1}}@-webkit-keyframes ldt-blur-in{0%{filter:blur(5px);opacity:0}90%{filter:blur(0);opacity:1}100%{filter:blur(0);opacity:1}}.ldt-blur-in{filter:blur(5px);opacity:0;-webkit-animation:ldt-blur-in 1s cubic-bezier(0,.5,.5,1) forwards;animation:ldt-blur-in 1s cubic-bezier(0,.5,.5,1) forwards}
+.ld { transform-origin: 50% 50%; transform-box: fill-box; }
+@keyframes ld-blur-in {
+  100% { filter: blur(0); opacity: 1 }
+  0% { filter: blur(10%); opacity: 0 }
+}
+.ld.ld-blur-in {
+  animation: ld-blur-in 1s 1 linear; animation-fill-mode: forwards;filter: blur(10%);opacity: 0; 
+}
