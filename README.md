@@ -15,11 +15,18 @@ You can find more about animation generation in [loading.io](https://loading.io/
 
 ## Usage
 
-1. download and include [transition.css](https://raw.githubusercontent.com/loadingio/transition.css/master/dist/transition.min.css):
+1. download and include [transition.css](https://raw.githubusercontent.com/loadingio/transition.css/2.0.0/dist/transition.min.css):
 
 ```
     <link rel="stylesheet" type="text/css" href="transition.css"/>
 ```
+
+You can also use CDN, such as, from jsDelivr:
+
+```
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/loadingio/transition.css@2.0.0/dist/transition.min.css"/>
+```
+
 
 2. check [transition.css animation gallery](https://loading.io/transition/) for the name of animations you want to use. for example, `ld-bounce-in`.
 
