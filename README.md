@@ -15,7 +15,7 @@ You can find more about animation generation in [loading.io](https://loading.io/
 
 ## Usage
 
-1. download and include [transition.css](https://raw.githubusercontent.com/loadingio/transition.css/2.0.0/dist/transition.min.css):
+1. download and include [transition.css](https://github.com/loadingio/transition.css/releases/latest/download/transition.min.css):
 
 ```
     <link rel="stylesheet" type="text/css" href="transition.css"/>
@@ -24,7 +24,7 @@ You can find more about animation generation in [loading.io](https://loading.io/
 You can also use CDN, such as, from jsDelivr:
 
 ```
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/loadingio/transition.css@2.0.0/dist/transition.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/loadingio/transition.css@v2.0.0/dist/transition.min.css"/>
 ```
 
 
