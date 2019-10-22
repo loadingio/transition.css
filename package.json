@@ -1,10 +1,10 @@
 {
-  "author": "loading.io",
+  "author": "zbryikt",
   "name": "transition.css",
   "license": "MIT",
   "description": "handcrafted css animation dedicated for transitional effect.",
-  "version": "1.0.0",
-  "homepage": "https://github.com/loadingio/transition.css",
+  "version": "2.0.0",
+  "homepage": "https://loading.io/transition/",
   "repository": {
     "type": "git",
     "url": "https://github.com/loadingio/transition.css"
