@@ -3,6 +3,7 @@
 # 2.0.1
 
  - update engine to support later version.
+ - update dependencies to fix vulnerabilities
 
 
 # 2.0.0
