@@ -2,6 +2,9 @@
   "author": "zbryikt",
   "name": "@loadingio/transition.css",
   "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
   "description": "handcrafted css animation dedicated for transitional effect.",
   "version": "2.0.1",
   "homepage": "https://loading.io/transition/",
