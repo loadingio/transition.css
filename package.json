@@ -15,9 +15,9 @@
   },
   "scripts": {},
   "devDependencies": {
+    "anikit": "git+https://github.com/loadingio/anikit.git",
     "LiveScript": ">=1.2.0",
     "stylus": "^0.54.5",
-    "uglifycss": "0.0.29",
-    "anikit": "git+https://github.com/loadingio/anikit.git"
+    "uglifycss": "0.0.29"
   }
 }
