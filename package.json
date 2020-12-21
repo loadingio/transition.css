@@ -3,15 +3,15 @@
   "name": "@loadingio/transition.css",
   "license": "MIT",
   "description": "handcrafted css animation dedicated for transitional effect.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://loading.io/transition/",
   "repository": {
     "type": "git",
     "url": "https://github.com/loadingio/transition.css"
   },
   "engines": {
-    "node": "=7.6.0",
-    "npm": "=3.9.5"
+    "node": ">7.6.0",
+    "npm": ">3.9.5"
   },
   "scripts": {},
   "devDependencies": {
