@@ -1,18 +1,23 @@
 # Change Logs
 
-# v2.0.2
+## v3.0.0
+
+ - release with compact directory structure
+
+
+## v2.0.2
 
  - add `style` field in package.json
 
 
-# v2.0.1
+## v2.0.1
 
  - update engine to support later version.
  - update dependencies to fix vulnerabilities.
  - release only required files.
 
 
-# v2.0.0
+## v2.0.0
 
  * animation renamed
    - all animation prefix `ldt` is now renamed to `ld`.
